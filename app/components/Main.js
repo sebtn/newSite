@@ -5,7 +5,20 @@ import {connect} from 'react-redux'
 class Main extends Component {
   render() {
     return (
-      <h1>This is Main using store and provider!</h1>
+      <div className="main-container">
+        <h1 className="logo">Seb</h1>
+        <h2 className="content">
+          I'm Sebastian, Freelance JavaScript developer. <br /> 
+          I have love for all things minimal and modular 
+          building blocks using JS frameworks.
+          <br />
+          Full disclosure: I sing to my cat when we are alone 
+          and I'm hooked on caffeine.
+          <br />
+          <a href="mailto:sdebedout@gmail.com">Contact me </a>
+        </h2>        
+      <img src="/home/seb" alt=""/>
+      </div>
     )
   }
 }

@@ -1,0 +1,26 @@
+.main-container {
+  font-family: "Courier New", Courier, monospace;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(51,51,51,0.7);
+  z-index: 10; 
+  background-color: #f4f4f4;
+  & .logo {
+    text-align: center;
+    margin-top: 0.5em;
+  }
+  & .content {
+    color:#e6be8a;
+    // position: fixed; 
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-15%, -30%);
+    & a {
+      color: lime;
+    }
+  } 
+}
