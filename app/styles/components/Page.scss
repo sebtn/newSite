@@ -1,0 +1,41 @@
+.main-container { 
+  // background-image: url(https://s3.amazonaws.com/sebimages/BgVr-1.jpg);
+  // background-image: url(https://s3.amazonaws.com/sebimages/bgGeo-1.jpg);  
+  background-image: url(https://s3.amazonaws.com/sebimages/GaryBg-light.jpg);
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: "Courier New", Courier, monospace;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  // background: rgba(51,51,51,0.7);
+  z-index: 10; 
+  background-color: #f4f4f4;
+  & .logo {
+    text-align: center;
+    margin: 0.5em 0 0.5em 0;
+    color:#d5d5d5;    
+  }
+  & .content {
+    line-height: 1.75em;
+    // color:#EEAA7B;
+    color: #d8691c;
+    // color:#e37224;
+    // position: fixed; 
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-15%, -30%);
+    & a {
+      color: lightslategrey;
+    }
+  } 
+  & .img-container {
+    height: 100%;
+    width: 100%; 
+    z-index: 12;
+  }
+}
