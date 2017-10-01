@@ -77,7 +77,7 @@
   }
 }
 
-@media only screen and (max-width: 670px) {
+@media only screen and (max-width: 640px) {
   .main-container { 
     background: url(https://s3.amazonaws.com/sebimages/faceBW.jpg);    font-family: "Courier New", Courier, monospace;
     position: fixed;
@@ -111,7 +111,7 @@
   }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 480px) {
   .main-container { 
     background: none;  
     font-family: "Courier New", Courier, monospace;
