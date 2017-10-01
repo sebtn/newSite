@@ -1,5 +1,6 @@
 let express = require('express')
 let app = express()
+const port = process.env.PORT || 3000
 
 app.get('*.js', function (req, res, next) {
   req.url = req.url + '.gz'
@@ -8,6 +9,6 @@ app.get('*.js', function (req, res, next) {
 })
 
 app.use(express.static('public'))
-app.listen(3000, serverExpressFn = () => {
-	console.log('Express is now running your //localhost:3000')
+app.listen(port, serverExpressFn = () => {
+	console.log('Express is now running your: ' + port)
 })
