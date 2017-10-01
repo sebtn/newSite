@@ -14,7 +14,7 @@ class Page extends Component {
           help your product be as great as you imagine it. <br />
           <a  href="mailto:sdebedout@gmail.com">Contact me </a>
           <div className="logo">
-            <h2>--Made by Seb--</h2>
+            <p>--Made by Seb--</p>
           </div>
         </h2>        
       </div>
