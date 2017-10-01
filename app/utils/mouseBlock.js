@@ -1,1 +1,1 @@
-export default window.onwheel = () =>  false
+export default window.onwheel = () => false
